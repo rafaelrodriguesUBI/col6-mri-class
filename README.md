@@ -1,5 +1,5 @@
 
-# [Learning-based classification of Collagen VI-related muscular dystrophy]
+# Learning-based classification of Collagen VI-related muscular dystrophy
 
 This repository contains the model architectures and pre-trained weights for the models evaluated in the paper: *"Learning-based classification of Collagen VI-related muscular dystrophy"* published in *Biomedical Signal Processing and Control*. 
 
