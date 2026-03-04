@@ -1,0 +1,21 @@
+
+# Core Deep Learning & Scattering
+tensorflow==2.14.1
+keras==2.14.0
+kymatio==0.3.0
+
+# Data Processing & Math
+numpy==1.24.3
+scipy==1.15.3
+pandas==2.3.2
+scikit-learn==1.2.2
+imbalanced-learn==0.10.1
+
+# Imaging & Visualization
+opencv-python==4.8.0.76
+pillow==11.3.0
+matplotlib==3.7.1
+seaborn==0.13.2
+
+# Underlying math for Kymatio
+PyWavelets==1.4.1

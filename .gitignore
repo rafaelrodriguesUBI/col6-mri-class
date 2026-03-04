@@ -1,0 +1,33 @@
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook ckpts
+.ipynb_checkpoints/
+
+# Virtual Environments
+venv/
+env/
+.venv/
+conda-env/
+
+# IDE/OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+#Data
+data/
+datasets/
+*.csv
+*.npy
+*.npz
