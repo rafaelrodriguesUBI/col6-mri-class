@@ -1,7 +1,7 @@
 
 # Learning-based classification of Collagen VI-related muscular dystrophy
 
-This repository contains the model architectures and pre-trained weights for the models evaluated in the paper: *"Learning-based classification of Collagen VI-related muscular dystrophy"* published in *Biomedical Signal Processing and Control*. 
+This repository contains the model architectures and pre-trained weights for the models evaluated in the paper: *"Learning-based classification of Collagen VI-related muscular dystrophy"* under review in *Biomedical Signal Processing and Control*. 
 
 To ensure reproducibility, this repository provides the raw Keras/TensorFlow architectures (including standard CNNs, MLPs, and Wavelet Scattering-based models) and the weights learned during the Leave-One-Out Cross-Validation (LOOCV) process.
 
@@ -40,18 +40,6 @@ pip install -r requirements.txt
 This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/). You are free to share and adapt this material for non-commercial purposes, provided you give appropriate credit.
 
 **If you use these models and/or weights in your research, please cite the following papers:**
-
-```bibtex
-@article{rodrigues2026learning,
-  title={Learning-based classification of Collagen VI-related muscular dystrophy},
-  author={Rodrigues, Rafael and Pinheiro, Antonio M. G.},
-  journal={Journal Name},
-  year={2026},
-  volume={x},
-  pages={xxx--xxx},
-  publisher={Publisher Name}
-}
-```
 
 ```bibtex
 @inproceedings{rodrigues2022severity,
