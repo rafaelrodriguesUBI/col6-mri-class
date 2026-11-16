@@ -16,8 +16,9 @@ dummy_texture = np.random.rand(1, 355).astype(np.float32)
 print("--- Loading CNN Model ---")
 cnn_model = build_cnn_model()
 
-# Simulating loading weights of LOOCV fold 1
-cnn_weight_path = './weights/cnn/fold1.weights.h5' 
+# Simulating loading weights of LOOCV repetition 1 / fold 2 (Example)
+# PLEASE NOTE: Pretrained weights can be downloaded from the Google Drive folder in README and placed directly in weights/
+cnn_weight_path = './weights/cnn/1/fold2.weights.h5' 
 try:
     cnn_model.load_weights(cnn_weight_path, skip_mismatch=True)
     print(f"Successfully loaded weights from {cnn_weight_path}")
