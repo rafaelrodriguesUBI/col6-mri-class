@@ -8,8 +8,8 @@ This repository provides the raw Keras/TensorFlow architectures (including stand
 ## Repo Structure
 
 * `models.py`: Contains the raw `tf.keras.Model` build functions for all evaluated architectures.
-* `example.py`: A demonstration script showing how to instantiate the models, load specific LOOCV fold weights, and perform inference.
-* `./weights/`: Directory containing the `.h5` weight files for each model and fold. 
+* `demo.py`: A demonstration script showing how to instantiate the models, load specific LOOCV fold weights, and perform inference.
+* `./weights/`: Empty directory to place the `.h5` weight files for each model. The pretrained weights are available in this [Google Drive folder](https://drive.google.com/drive/folders/1z3jehsJNK9j43bwR2AJMjzG-oUZRULwd?usp=sharing).
 
 ## Research Data Availability
 
